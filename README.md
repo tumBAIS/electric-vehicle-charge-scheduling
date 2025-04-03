@@ -1,4 +1,4 @@
-# MILAS AP 6.2
+# MILAS: Vehicle Dispatching and Charge Scheduling
 
 ## Structure
 
