@@ -28,7 +28,6 @@
 * Install requirements
 * Make sure to install CPlex properly:
 
-# This is not required on the cluster
 ```bash
 cd /path/to/cplex
 cd python
