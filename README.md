@@ -104,10 +104,6 @@ The solvers output a JSON file with the following structure:
 }
 ```
 
-## Ideas
-
-* With/and without energy prices (to determine how well decentral energy storage can be utilized)
-
 ## Solution-Column-Logging and Visualization
 
 A solution visualizer is provided [here](https://oscm.maximilian-schiffer.com/milas/col_visualizer). The visualizer takes the solutions (as .json) and their respective logged columns (as .json) at each iteration as inputs. Therefore, it is required to log all the intermediate solutions and columns for the visualization. The logger is implemented in `./visualization/col_gen_logging.py`. Upon executing script `./column_generation/cli.py`, the logger singleton will be created. The solutions and the columns are logged at the end of each call from the master problem. Two files, `logged_solutions.json` and `logged_columns.json`, are generated when the column generation finishes.
